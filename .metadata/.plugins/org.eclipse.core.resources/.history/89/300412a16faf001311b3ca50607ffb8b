@@ -1,0 +1,21 @@
+package ejemplo3;
+
+import java.util.Scanner;
+
+public class Clase3 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		int arreglo []= new int[20];
+		Scanner s=new Scanner(System.in);
+		for (int i=0; i<arreglo.length; i++)
+		{if (arreglo [i]% 2==20)
+			System.out.println(arreglo[i]);
+		
+		}
+	}
+
+}

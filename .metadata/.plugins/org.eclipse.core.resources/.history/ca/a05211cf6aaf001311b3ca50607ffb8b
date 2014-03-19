@@ -1,0 +1,19 @@
+package ejemplo1;
+
+public class clase1 
+{	
+	static void soniguales (int param) 
+	{System.out.println("El parametro es igual ");
+	}
+	
+	
+	
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

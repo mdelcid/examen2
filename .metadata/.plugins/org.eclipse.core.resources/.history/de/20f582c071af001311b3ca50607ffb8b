@@ -1,0 +1,21 @@
+package ejemplo1;
+
+public class clase1 
+{	
+	static void funcion (int param)
+	{System.out.println("el primer parametro es: " + param);
+	System.out.println("el segundo parametro es: " + param);
+	}
+	
+	
+	
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		funcion();
+
+	}
+
+}

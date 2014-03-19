@@ -1,0 +1,21 @@
+package ejemplo1;
+
+public class clase1 
+{	
+	static void funcion ()
+	{System.out.println("1");
+	System.out.println("2");
+	}
+	
+	
+	
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		funcion();
+		funcion();
+	}
+
+}

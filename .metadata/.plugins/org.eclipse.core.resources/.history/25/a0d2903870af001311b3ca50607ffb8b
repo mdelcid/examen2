@@ -1,0 +1,45 @@
+package ejemplo3;
+
+import java.util.Scanner;
+
+public class Clase03 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		 {
+		     Scanner s = new Scanner(System.in);
+		     double x[],promedio,suma=0;
+		     int n,i;
+		 
+		     do{
+		        System.out.print("Cantidad de elementos del arreglo : ");
+		 
+		        n=s.nextInt();
+		     }while(n<=0 || n>100);
+		 
+		     x=new double[n];
+		 
+		     for(i=0; i<n;i++)
+		     {
+		       System.out.print("x["+i+"]: ");
+		       x[i]=s.nextDouble();
+		     }
+		 
+		     System.out.println("Elementos del arreglo");
+		     for(i=0; i<n;i++)
+		       System.out.println("x["+i+"]: "+x[i]);
+		 
+		 
+		     
+		     for(i=0; i<n; i++)
+		        suma=suma+x[i];
+		 
+		     promedio=suma/n;
+		  
+		     System.out.println("El promedio es : "+ promedio);
+		   }
+		}
+	}
+
+

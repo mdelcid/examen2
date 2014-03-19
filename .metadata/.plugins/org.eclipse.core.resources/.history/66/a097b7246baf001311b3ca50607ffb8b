@@ -1,0 +1,26 @@
+package ejemplo1;
+
+public class clase1 
+{	
+	static int funcion (int num)
+	{
+		if (num==0);
+		{
+		return 0;
+		}
+		if (num==1)
+		{return 1;
+		}
+	}
+	
+	
+	
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

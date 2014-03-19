@@ -1,0 +1,36 @@
+package ejemplo1;
+
+import java.util.Scanner;
+
+public class clase1 
+{	
+	static boolean soniguales (int a, int b)
+	{ if (a==b)
+		{return true;
+		}
+	else
+	return false;
+	}
+	
+	
+	
+
+	public static boolean main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		System.out.println("ingrese parama ");
+		int a=s.nextInt();
+		System.out.println("ingrese paramb ");
+		int b=s.nextInt();
+		
+		{ if (a==b)
+		{return true;
+		}
+	else
+	return false;
+	}
+		
+	}
+
+}

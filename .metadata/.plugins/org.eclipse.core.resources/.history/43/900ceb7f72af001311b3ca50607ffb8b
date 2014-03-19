@@ -1,0 +1,23 @@
+package ejemplo1;
+
+public class clase1 
+{	
+	static boolean soniguales (int a, int b)
+	{ if (a==b)
+		{return true;
+		}
+	else
+	return false;
+	}
+	
+	
+	
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}
